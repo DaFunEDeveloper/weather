@@ -10,6 +10,6 @@ $.ajax ({
 
 		$("#location").text(result.name);
 
-		$("sky").text(result.weather[0].description);
+		$("#sky").text(result.weather[0].description);
 	}
 })
