@@ -13,7 +13,8 @@ body {
 }
 
 .box {
-	border: 3px solid white;
+	border: 3px solid black;
 	margin-right: 50vw;
 	padding: 10px;
+	background-color: white;
 }
