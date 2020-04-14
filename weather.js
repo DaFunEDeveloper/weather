@@ -10,6 +10,11 @@ $.ajax ({
 
 		$("#location").text(result.name);
 
+		var F = Math.round(result.main.temp * (9/5) -459.67);
+		var Farenheit = F.toString();
+		$("#temperature").text(Farenheit);
+
+
 		$("#sky").text(result.weather[0].description);
 	}
 })
