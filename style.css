@@ -5,5 +5,9 @@ body {
 
 .header {
 	text-align: center;
-	margin: 100px;
+	margin-bottom: 100px;
+}
+
+.data {
+	margin-left: 20vw;
 }
