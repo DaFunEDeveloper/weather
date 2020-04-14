@@ -11,3 +11,9 @@ body {
 .data {
 	margin-left: 20vw;
 }
+
+.box {
+	border: 3px solid white;
+	margin-right: 50vw;
+	padding: 10px;
+}
