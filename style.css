@@ -2,3 +2,7 @@ body {
 	background-color: skyblue;
 	font-family: "aleo", sarif;
 }
+
+.header {
+	text-align: center;
+}
