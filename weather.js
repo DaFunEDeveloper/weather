@@ -15,7 +15,7 @@ $.ajax ({
 		$("#temperature").text(Farenheit);
 
 		var windSpeed = Math.round(result.wind.speed / .44704);
-		var wind = windSpeed.toString
+		var wind = windSpeed.toString();
 		$("#wind").text(wind)
 
 		$("#sky").text(result.weather[0].description);
