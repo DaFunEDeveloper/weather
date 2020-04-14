@@ -7,5 +7,7 @@ $.ajax ({
 	success: function (result){
 		console.log(result);
 		console.log(result.name)
+
+		$("#location").text(result.name);
 	}
 })
