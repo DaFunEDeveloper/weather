@@ -9,5 +9,7 @@ $.ajax ({
 		console.log(result.name)
 
 		$("#location").text(result.name);
+
+		$("sky").text(result.weather[0].description);
 	}
 })
